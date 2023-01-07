@@ -21,7 +21,7 @@ const fetch_delete_card_application = async (DelBtn, card_application) => {
   DelBtn.innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/admin/card_application/delete",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/card_application/delete",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -85,7 +85,7 @@ const setText = (userInfo) => {
   let admin = getCookie("admin");
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/admin/card_application/fetch",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/card_application/fetch",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

@@ -21,7 +21,7 @@ const submit_otp = async (user_form) => {
   document.querySelector("#submit").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/user/transaction/complete",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/user/transaction/complete",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

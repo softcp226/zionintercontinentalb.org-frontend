@@ -28,7 +28,7 @@ const fetch_admin_transfer = async (form) => {
   document.querySelector("#submit").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/user/debit/credit_user",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/user/debit/credit_user",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

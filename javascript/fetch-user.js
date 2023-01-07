@@ -20,7 +20,7 @@ let getCookie = (cname) => {
   let user = getCookie("user");
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/user/fetchSelf",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/user/fetchSelf",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

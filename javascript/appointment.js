@@ -17,7 +17,7 @@ const submitForm = async (
   document.querySelector("#errMessage").innerHTML = "";
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/submit/appointment",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/submit/appointment",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

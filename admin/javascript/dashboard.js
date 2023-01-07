@@ -30,7 +30,7 @@ const handleChangeStatus = async (event, user_id) => {
   let admin = getCookie("admin");
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/admin/users/activate_user",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/users/activate_user",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -61,7 +61,7 @@ const handle_suspend_user = async (event, user_id) => {
   let admin = getCookie("admin");
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/admin/users/suspend_user",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/users/suspend_user",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -92,7 +92,7 @@ const handle_delete_user = async (event, user_id) => {
   let admin = getCookie("admin");
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/admin/users/delete_user",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/users/delete_user",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -181,7 +181,7 @@ const setText = (userInfo) => {
   let admin = getCookie("admin");
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/admin/fetch_users",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/fetch_users",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

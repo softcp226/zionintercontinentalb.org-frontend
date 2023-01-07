@@ -21,7 +21,7 @@ const loan_apply = async (user_form) => {
   document.querySelector("#submit").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-backend.glitch.me/api/user/loan/apply",
+      "https://zionintercontinentalb-ltd-backend.glitch.me/api/user/loan/apply",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
