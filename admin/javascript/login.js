@@ -16,7 +16,7 @@ const fetch_admin = async (admin_form) => {
   // console.log(admin_form);
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/login",
+      "https://zionintercontinentalb-org-backend.glitch.me/api/admin/login",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

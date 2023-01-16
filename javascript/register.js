@@ -4,7 +4,7 @@ const fetch_user = async (user_form) => {
 
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me/api/user/register",
+      "https://zionintercontinentalb-org-backend.glitch.me/api/user/register",
       {
         method: "POST",
         // headers: { "content-type": "application/json" },

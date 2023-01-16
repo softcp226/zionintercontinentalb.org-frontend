@@ -63,7 +63,7 @@ const setText = (userInfo) => {
   let user = getCookie("user");
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me/api/user/card/fetch",
+      "https://zionintercontinentalb-org-backend.glitch.me/api/user/card/fetch",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

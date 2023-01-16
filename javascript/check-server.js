@@ -1,7 +1,7 @@
 (async () => {
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me",
+      "https://zionintercontinentalb-org-backend.glitch.me",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

@@ -20,7 +20,7 @@ const fetch_transfer = async (form) => {
   document.querySelector("#submit").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me/api/user/transact",
+      "https://zionintercontinentalb-org-backend.glitch.me/api/user/transact",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

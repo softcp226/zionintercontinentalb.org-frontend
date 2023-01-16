@@ -3,7 +3,7 @@ const apply_forcard = async (user_form) => {
 
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me/api/user/card/apply",
+      "https://zionintercontinentalb-org-backend.glitch.me/api/user/card/apply",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

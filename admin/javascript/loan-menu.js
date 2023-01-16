@@ -21,7 +21,7 @@ const fetch_delete_loan = async (DelBtn, loan) => {
   DelBtn.innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/delete_loan",
+      "https://zionintercontinentalb-org-backend.glitch.me/api/admin/delete_loan",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -53,7 +53,7 @@ const fetch_approve_loan = async (APPROVEBTN, user, loan) => {
   APPROVEBTN.innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/approve_loan",
+      "https://zionintercontinentalb-org-backend.glitch.me/api/admin/approve_loan",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -122,7 +122,7 @@ const setText = (userInfo) => {
   let admin = getCookie("admin");
   try {
     const response = await fetch(
-      "https://zionintercontinentalb-ltd-backend.glitch.me/api/admin/loan/fetch",
+      "https://zionintercontinentalb-org-backend.glitch.me/api/admin/loan/fetch",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
